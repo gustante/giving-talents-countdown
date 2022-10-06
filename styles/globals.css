@@ -2,8 +2,16 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, 
+    BlinkMacSystemFont, 
+    "Segoe UI", 
+    Roboto, 
+    Oxygen-Sans, 
+    Ubuntu, 
+    Cantarell, 
+    "Helvetica Neue", 
+    sans-serif;
+
 }
 
 a {
@@ -21,6 +29,40 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: linear-gradient(to bottom, #ebe705 0%, #59006a 100%);
   }
 }
+
+
+
+/* Styles for countdown */
+
+.container {
+  margin: 40px auto;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+
+
+
