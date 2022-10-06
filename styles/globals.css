@@ -38,8 +38,12 @@ a {
 /* Styles for countdown */
 
 .container {
-  margin: 40px auto;
+  margin: 40px;
   text-align: center;
+}
+
+ul {
+  padding: 0;
 }
 
 li {
