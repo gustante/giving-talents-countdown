@@ -52,16 +52,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h2>
           Coming soon...
+        </h2>
+        <h1 className={styles.title}>
+          Outrageous Generosity
         </h1>
 
 
 
         <div class="container">
-          <h2>
-            Outrageous generosity!!!
-          </h2>
+
           <div id="countdown">
             <ul>
               <li><span id="days"></span>Days</li>
