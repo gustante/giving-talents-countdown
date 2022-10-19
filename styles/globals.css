@@ -8,7 +8,7 @@ body {
     Roboto, 
     Oxygen-Sans, 
     Ubuntu, 
-    Cantarell, 
+    Cantarell, d
     "Helvetica Neue", 
     sans-serif;
 
@@ -62,9 +62,11 @@ li span {
 
 
 .social-icons {
-  display: flex;
-  justify-content: space-evenly;
   margin: 50px;
+}
+
+.social-icons a {
+ padding: 50px;
 }
 
 

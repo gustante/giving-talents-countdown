@@ -1,11 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { useEffect } from 'react'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import Script from 'next/script';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 
@@ -24,7 +21,7 @@ export default function Home() {
 
 
       //remove this if you don't need it
-      let launch = "10/20/2022"
+      let launch = "11/29/2022"
 
       const countDown = new Date(launch).getTime(),
         x = setInterval(function () {
@@ -53,15 +50,19 @@ export default function Home() {
 
       <main className={styles.main}>
         <h2>
-          Coming soon...
+          Count down to...
         </h2>
         <h1 className={styles.title}>
           Outrageous Generosity
         </h1>
+        <h1>
+          What can you give in an hour?
+        </h1>
+        <p>From 1 PM to 2 PM (your local time)</p>
 
 
 
-        <div class="container">
+        <div className="container">
 
           <div id="countdown">
             <ul>
