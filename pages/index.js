@@ -21,7 +21,7 @@ export default function Home() {
 
 
       //remove this if you don't need it
-      let launch = "11/29/2022"
+      let launch = "10/20/2022"
 
       const countDown = new Date(launch).getTime(),
         x = setInterval(function () {
